@@ -194,9 +194,11 @@ footer a {
     text-align: justify;
     align-items: flex-start;
 }
-#Beneficios .container{
+
+#Beneficios .container {
     display: flex;
 }
+
 #final {
     /* background-color: black; */
     height: 30vh;
@@ -290,9 +292,11 @@ footer h3 {
         align-items: center;
         padding: 10px;
     }
+
     #hero {
         margin-top: 85px;
     }
+
     #hero h1 {
         color: rgb(255, 255, 255);
         height: 500px;
@@ -304,6 +308,7 @@ footer h3 {
         font-size: 80px;
         border-radius: 15px 15px 15px 15px;
     }
+
     #gorras-vintage {
         margin: 50px 50px;
         display: flex;
@@ -316,7 +321,7 @@ footer h3 {
         background-size: cover;
         border-radius: 15px 15px 15px 15px;
     }
-    
+
     .flex-padre {
         display: flex;
         min-height: 110vh;
@@ -355,6 +360,7 @@ footer h3 {
         font-size: 40px;
         border-radius: 15px 15px 15px 15px;
     }
+
     #gorras-vintage {
         margin: 50px 50px;
         display: flex;
@@ -367,6 +373,7 @@ footer h3 {
         background-size: cover;
         border-radius: 15px 15px 15px 15px;
     }
+
     .container h2 {
         font-size: 35px;
         text-align: center;
@@ -378,22 +385,26 @@ footer h3 {
         text-align: center;
         color: white;
     }
+
     #sombreros-dama .carta img {
         height: 100px;
         border-radius: 15px;
     }
-    #Beneficios .container{
+
+    #Beneficios .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #final h2{
+
+    #final h2 {
         font-size: 30px;
     }
+
     .flex-hijo {
         list-style: none;
-        font-size: 7px;
+        font-size: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -402,7 +413,72 @@ footer h3 {
         background-color: bisque;
     }
 }
+
 /* Esta es la media Query de la sección servicios */
-@media(max-width: 768px){
-    
-}
+@media(max-width: 768px) {
+    header {
+        display: flex;
+        height: 153px;
+        background-color: rgba(15, 15, 15, 0.897);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #hero {
+        margin-top: 50px;
+    }
+
+    .container h2 {
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+
+    .container p {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    #gorras-vintage {
+        margin: 50px 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 650px;
+        height: 350px;
+        background-image: url(../recursos/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .flex-padre1 {
+        display: flex;
+        flex-direction: row;
+        background-image: url(../recursos/campo.jpg);
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h2 {
+        display: block;
+        font-size: 50px;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .flex-padre1 p {
+        display: flex;
+        width: 500px;
+        font-size: 20px;
+        color: white;
+    }
+ }
